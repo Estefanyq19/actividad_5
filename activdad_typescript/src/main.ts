@@ -9,6 +9,8 @@ console.log("EJERCICIO 1")
 const cabecera = new cabeceraPag("Hola Kenia", "Morado", "Time New Roman");
 cabecera.alineacionCabecera('centro');
 cabecera.imprimirPropiedades();
+
+
 //Para identificar entre cada ejercicio
 console.log("     ")
 console.log("EJERCICIO 2")
