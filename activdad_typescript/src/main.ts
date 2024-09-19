@@ -6,6 +6,8 @@ import { Calculadora } from "./ejercicio2Calculadora";
 import { Cancion } from "./ejercicio3Cancion";
 //Importando la clase Cuenta
 import { Cuenta } from "./ejercicio4Cuenta";
+//Importando la clase Empleado
+import { Empleado } from "./ejercicio5Persona";
 
 //Ejercicio1
 console.log("EJERCICIO 1")
@@ -40,3 +42,10 @@ miCuenta.depositar(50);
 miCuenta.retirar(543);
 //Imprimiendo para verificar el mensaje cuando no tengo saldo suficiente  para retirar
 miCuenta.retirar(80);
+
+//Ejercicio5
+console.log("     ")
+console.log("EJERCICIO 5")
+const empleado = new Empleado("BEATRIZ", "MUÑOZ", "Col. Hay un árbol verde xd", "0000-0005", 23, 800);
+empleado.mostrarDatos();
+empleado.imprimirSueldo();
